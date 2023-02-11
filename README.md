@@ -1,4 +1,2 @@
-# JavaScript algorithms-Project 1
 # palindrome checker
-Return true if the given string is a palindrome. Otherwise, return false.
-A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+This algorithm checks whether a string is a palindrome, meaning it can be read the same way from left to right and right to left. Initially, the algorithm iterates over the string from the last character to the first and adds each character to a new string. Next, it converts both strings to lowercase and removes all characters that are not letters or numbers using a regular expression. Finally, it compares the new string to the original: if they are the same, it returns true, otherwise it returns false.
